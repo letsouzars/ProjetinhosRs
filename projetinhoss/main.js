@@ -24,23 +24,30 @@ function jogar(escolha) {
     } else if (jogadorEscolha == 2 && computadorEscolha == 3){
         ganhador = 2;
     } else if (jogadorEscolha == 3 && computadorEscolha == 1) {
-        ganhador = 2;
-    } else if (jogadorEscolha == 3 && computadorEscolha == 2) {
         ganhador = 1;
+    } else if (jogadorEscolha == 3 && computadorEscolha == 2) {
+        ganhador = 2;
     } else if (jogadorEscolha == 3 && computadorEscolha == 3){
         ganhador = 0;
     }
     
 
-    document.getElementById('jogadorEscolha1').classList.remove('selecionado;');
-    document.getElementById('jogadorEscolha2').classList.remove('selecionado;');
+    document.getElementById('jogadorEscolha1').classList.remove
+    ('selecionado');
+    document.getElementById('jogadorEscolha2').classList.remove
+    ('selecionado');
     document.getElementById('jogadorEscolha3').classList.remove('selecionado;');
 
-    document.getElementById('computadorEscolha1').classList.remove('selecionado;');
-    document.getElementById('computadorEscolha2').classList.remove('selecionado;');
-    document.getElementById('computadorEscolha3').classList.remove('selecionado;');
+    
+
+    document.getElementById('computadorEscolha1').classList.remove
+    ('selecionado');
+    document.getElementById('computadorEscolha2').classList.remove
+    ('selecionado');
+    document.getElementById('computadorEscolha3').classList.remove
+    ('selecionado');
 
 
-    document.getElementById('jogadorEscolha' + jogadorEscolha). classList.add('selecionado');
+    document.getElementById('jogadorEscolha' + jogadorEscolha). classList.add ('selecionado');
     document.getElementById('computadorEscolha' + computadorEscolha). classList.add ('selecionado');
 }
