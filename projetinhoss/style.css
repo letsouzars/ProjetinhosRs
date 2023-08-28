@@ -13,7 +13,8 @@ ul#computadorEscolha li a.selecionado {
 
 body {
     font-family: Arial, sans-serif;
-    background-color:
+    background-image: url(https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxNDQxNTZ8fGVufDB8fHx8fA%3D%3D&w=1000&q=80);
+    background-size:100vw ;
     margin: 0;
     padding: 0;
   }
@@ -22,11 +23,12 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    margin-top: 150px;
   }
   
   #titulo {
     text-align: center;
-    color: #333;
+    color: #ffffff;
   }
   
   #placar {
@@ -34,7 +36,11 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-    background-color: white;
+    background-color: #ffffff10;
+    border-radius: 10px;
+    padding: 40px;
+    border: 2px solid #ffffff30;
+    backdrop-filter: blur(1px);
   }
   
   #jogador,
@@ -45,7 +51,7 @@ body {
   #jogadorNome,
   #computadorNome {
     margin: 5px 0;
-    color: #555;
+    color: white;
   }
   
   #jogadorEscolha,
