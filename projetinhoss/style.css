@@ -1,0 +1,4 @@
+ul#jogadorEscolha li a ,
+ul#computadorEscolha li a {
+    opacity: 0.2;
+}
