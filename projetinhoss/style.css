@@ -9,3 +9,79 @@ ul#jogadorEscolha li a.selecionado,
 ul#computadorEscolha li a.selecionado {
     opacity: 1;
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:
+    margin: 0;
+    padding: 0;
+  }
+  
+  #principal {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #titulo {
+    text-align: center;
+    color: #333;
+  }
+  
+  #placar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+  }
+  
+  #jogador,
+  #computador {
+    text-align: center;
+  }
+  
+  #jogadorNome,
+  #computadorNome {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  #jogadorEscolha,
+  #computadorEscolha {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #jogadorEscolha li,
+  #computadorEscolha li {
+    margin: 0 10px;
+  }
+  
+  #mensagem {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+
+  #jogadorEscolha img,
+  #computadorEscolha img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+ 
+  #versus {
+    font-size: 24px;
+    color: #333;
+    margin: 0 20px;
+  }
