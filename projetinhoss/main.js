@@ -18,4 +18,25 @@ function jogar(escolha) {
     } else if (jogadorEscolha == 1 && computadorEscolha == 3){
         ganhador = 1;
     }
+
+
+
+    if (jogadorEscolha == 2 && computadorEscolha == 1) {
+        ganhador = 2;
+    } else if (jogadorEscolha == 2 && computadorEscolha == 2) {
+        ganhador = 0;
+    } else if (jogadorEscolha == 2 && computadorEscolha == 3){
+        ganhador = 3;
+    }
+
+
+    if (jogadorEscolha == 3 && computadorEscolha == 1) {
+        ganhador = 1;
+    } else if (jogadorEscolha == 3 && computadorEscolha == 2) {
+        ganhador = 3;
+    } else if (jogadorEscolha == 3 && computadorEscolha == 3){
+        ganhador = 0;
+    }
+    
+
 }
