@@ -9,7 +9,10 @@ ul#jogadorEscolha li a.selecionado,
 ul#computadorEscolha li a.selecionado {
     opacity: 1;
 }
-
+ @font-face {
+    font-family: 'Coolvetica';
+    src: url(coolvetica\ rg.otf);
+ }
 
 body {
     font-family: Arial, sans-serif;
@@ -29,6 +32,7 @@ body {
   #titulo {
     text-align: center;
     color: #ffffff;
+    font-family: 'Coolvetica';
   }
   
   #placar {
@@ -38,9 +42,9 @@ body {
     margin-top: 20px;
     background-color: #ffffff10;
     border-radius: 10px;
-    padding: 40px;
-    border: 2px solid #ffffff30;
-    backdrop-filter: blur(1px);
+    padding: 60px;
+    border: 2px solid #ffffff20;
+    backdrop-filter: blur(10px);
   }
   
   #jogador,
@@ -72,7 +76,8 @@ body {
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
-    color: #d9534f;
+    color: red;
+
   }
   
 

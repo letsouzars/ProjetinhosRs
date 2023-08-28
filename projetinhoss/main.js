@@ -50,13 +50,12 @@ function jogador(escolha) {
     if (ganhador == 0) {
         document.getElementById('mensagem').innerHTML = "EMPATE"
     } else if (ganhador == 1) {
-        document.getElementById('mensagem').innerHTML = "JOGADOR GANHOU"
+        document.getElementById('mesagem').innerHTML = "JOGADOR GANHOU"
         jogadorPontos++;
     } else if (ganhador == 2) {
         document.getElementById('mensagem').innerHTML = "COMPUTADOR GANHOU"
         computadorPontos++;
     }
-
     document.getElementById('jogadorPontos').innerHTML = jogadorPontos;
     document.getElementById('computadorPontos').innerHTML = computadorPontos;
 }
