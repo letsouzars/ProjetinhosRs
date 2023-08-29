@@ -8,8 +8,13 @@
     <style>
 
         @font-face {
-            font-family: Romantica;
-            src: url();
+            font-family: 'Romantica';
+            src: url(Romantica.otf);
+        }
+
+        @font-face {
+            font-family: 'Wonder';
+            src: url(wonderland\ 2.otf);
         }
         * {
             margin: 0;
@@ -36,12 +41,16 @@
         }
 
         .tituloPrincipal {
-            font: 700 40px 'Poppins', sans-serif;
+            font: 100px 'Romantica';
+        }
+        .tituloSegundo {
+            font: 80px 'Wonder';
         }
 
         .titulo {
             text-align: center;
             margin: 50px 0;
+            
         }
 
         .botoes {
@@ -49,6 +58,9 @@
             justify-content: space-between;
             margin: 0 200px;
         }
+
+
+
 
         @media (min-width: 768px) {
     .botoes {
@@ -73,7 +85,7 @@
     </style>
    <script>
     function sim() {
-        location.href = "https://open.spotify.com/playlist/278mlOibTLiKvYZKhPHtlD?si=rYgc43fTSJ6MqFpqMLoi6w";
+        location.href = "https://open.spotify.com/intl-pt/track/1dGr1c8CrMLDpV6mPbImSI?si=78d916eecace4ac4";
     }
 
     function esquivo(btn) {
@@ -91,7 +103,10 @@
 <body>
     <div class="titulo">
         <h1 class="tituloPrincipal">
-            QUER TREINAR COMIGO?
+            Você aceita
+            <h1 class="tituloSegundo">
+                Namorar comigo
+            </h1>
         </h1>
     </div>
     <div class="botoes">
